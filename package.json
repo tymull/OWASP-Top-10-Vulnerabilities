@@ -1,0 +1,28 @@
+{
+  "name": "owasp-top-10-vulnerabilities",
+  "version": "1.0.0",
+  "description": "Explores several of OWASP's current Top 10 Vulnerabilities with examples and how to fix them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tymull/OWASP-Top-10-Vulnerabilities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tymull/OWASP-Top-10-Vulnerabilities/issues"
+  },
+  "homepage": "https://github.com/tymull/OWASP-Top-10-Vulnerabilities#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-fileupload": "^1.1.9",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.20",
+    "sqlite3": "^5.1.7"
+  }
+}
